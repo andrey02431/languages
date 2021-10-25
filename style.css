@@ -1,0 +1,35 @@
+ul{
+    margin-top: 30px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+    list-style-type: none;
+}
+
+@media (max-width: 991px){
+    #nav-bar{
+        display: none;
+    }
+}
+
+[class="row p-3"]{
+    background-color: rgba(167, 167, 167, 0.418);
+    border: solid 1px gray;
+}
+
+[class="row p-3"]:hover{
+    background-color: rgba(201, 201, 201, 0.418);
+}
+
+#nav-bar{
+    position: fixed;
+}
